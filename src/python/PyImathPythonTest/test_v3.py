@@ -2,7 +2,7 @@
 # Copyright Contributors to the OpenEXR Project.
 
 import unittest
-from imath import V3f, M44f, Eulerf
+from imath import V3f, M44f, Euler
 
 class Vec3TestCase(unittest.TestCase):
     def testV3f(self):
@@ -341,4 +341,3 @@ class M44fTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    
